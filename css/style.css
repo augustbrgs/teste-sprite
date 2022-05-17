@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#animacao{
+    background-image: url("../img/pepethefrog.png");
+    width: 85px;
+    height: 111px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+@keyframes anima-sprite {
+    from{
+        background-position: 0px;
+    }    
+    to{
+        background-position: -774px;
+    }
+}
+
+
